@@ -15,7 +15,7 @@ setup(
     description='Find random recordings',
     long_description=readme,
     author='Patryk Ferenc',
-    url='https://github.com/patrykferenc/randomrecord',
+    url='https://github.com/patrykferenc/random-record-retriever',
     license=license,
     packages=find_packages(exclude=('tests'))
 )

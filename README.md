@@ -40,7 +40,7 @@ pip install .
 After you have successfully installed the program, you can use it by running the following command:
 
 ```
-python -m randrecord
+python -m randrecord [number-of-records-between-5-and-20]
 ```
 
 # License

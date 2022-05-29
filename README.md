@@ -15,7 +15,14 @@ git clone git@github.com:patrykferenc/random-record-retriever.git [your-reposito
 Note that you should use python 3 for this project.
 Also it is recommended to use a virtual environment.
 
-Install the dependencies:
+
+Run the following command to install the package (make sure you are in the root of the repository):
+
+```
+pip install .
+```
+
+Install the dependencies if they are not installed automatically (for whatever reason):
 
 ```
 make init
@@ -25,13 +32,6 @@ make init
 
 ```
 pip install -r requirements.txt
-```
-
-
-Run the following command to install the package (make sure you are in the root of the repository):
-
-```
-pip install .
 ```
 
 

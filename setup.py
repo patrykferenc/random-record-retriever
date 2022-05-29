@@ -11,11 +11,11 @@ with open('LICENSE') as f:
 
 setup(
     name='randrecord',
-    version='1.0.0',
+    version='1.0.1',
     description='Find random recordings',
     long_description=readme,
     author='Patryk Ferenc',
     url='https://github.com/patrykferenc/random-record-retriever',
     license=license,
-    packages=find_packages(exclude=('tests'))
+    packages=find_packages()
 )

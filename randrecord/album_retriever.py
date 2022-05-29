@@ -1,10 +1,11 @@
 import musicbrainzngs
 
 musicbrainzngs.set_useragent(
-    "Random Record Retriever", 
-    "0.1.0", 
+    "Random Record Retriever",
+    "0.1.0",
     "https://github.com/patrykferenc/random-record-retriever"
 )
+
 
 def get_random_recordings_from_words(words_list):
     """
@@ -14,8 +15,7 @@ def get_random_recordings_from_words(words_list):
     for word in words_list:
         recordings.update(get_random_recordings_from_word(word))
     return recordings
-    
-    
+
 
 def get_random_recordings_from_word(word):
     """
@@ -31,4 +31,3 @@ def get_random_recordings_from_word(word):
         return {word: f"{artist} - {album} - {title}"}
     else:
         return {word: f"No recordings found for {word}"}
-    

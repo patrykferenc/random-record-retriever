@@ -4,6 +4,7 @@ import json
 WORD_API_LINK = 'https://random-words-api.vercel.app/word'
 WORD_FIELD = 'word'
 
+
 def get_random_words(number_of_words=10):
     """
     Return a dictionary of random unique words from the random-words-api.
@@ -17,7 +18,7 @@ def get_random_words(number_of_words=10):
             word = word_json[WORD_FIELD]
             words[word] = word
         else:
-            print(f"Error: {respones.status_code}")
+            print(f'Error: {respones.status_code}')
             break
 
     return words

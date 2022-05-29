@@ -18,8 +18,15 @@ Also it is recommended to use a virtual environment.
 Install the dependencies:
 
 ```
+make init
+```
+
+(...or if you prefer to do it by hand):
+
+```
 pip install -r requirements.txt
 ```
+
 
 Run the following command to install the package (make sure you are in the root of the repository):
 

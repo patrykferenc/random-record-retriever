@@ -11,7 +11,7 @@ with open('LICENSE') as f:
 
 setup(
     name='randrecord',
-    version='0.1.0',
+    version='1.0.0',
     description='Find random recordings',
     long_description=readme,
     author='Patryk Ferenc',
